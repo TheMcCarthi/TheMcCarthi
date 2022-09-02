@@ -1,11 +1,11 @@
-'''def lots ( *parameters ):
+def lots ( *parameters ):
     numberofpar = len(parameters)
     print("You have: ", numberofpar, "items")
     for items in parameters:
         print(items)
 
 lots('love', 'hello', 10)
-lots()'''
+lots()
 
 def name(name):
     print("Good day " + name)
